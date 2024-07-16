@@ -1,0 +1,81 @@
+/* Table View Responsive Design */
+@media only screen and (min-width: 576.1px) and (max-width: 940px) {
+  /* Responsive Nav Button Code */
+  nav {
+    display: block;
+    display: flex;
+    width: 92%;
+  }
+  .menu-btn {
+    display: block;
+  }
+  #click:checked ~ .menu-btn i::before {
+    content: "\f00d";
+  }
+  #click:checked ~ ul {
+    left: 0;
+  }
+  nav ul {
+    display: block;
+  }
+  nav ul {
+    position: fixed;
+    background-color: rgb(3, 69, 168);
+    top: 80px;
+    left: -100%;
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+    transition: all 0.5s ease;
+  }
+  nav ul li {
+    margin: 50px 0;
+    text-align: center;
+  }
+  nav ul li a {
+    font-size: 22px;
+    color: white;
+  }
+  /* Responsive Nav Button Code */
+}
+
+/* Responsive Mobile Device */
+@media only screen and (max-width: 576px) {
+  /* Responsive Nav Button Code */
+  nav {
+    display: block;
+    display: flex;
+    width: 92%;
+  }
+  .menu-btn {
+    display: block;
+  }
+  #click:checked ~ .menu-btn i::before {
+    content: "\f00d";
+  }
+  #click:checked ~ ul {
+    left: 0;
+  }
+  nav ul {
+    display: block;
+  }
+  nav ul {
+    position: fixed;
+    background-color: rgb(3, 69, 168);
+    top: 80px;
+    left: -100%;
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+    transition: all 0.5s ease;
+  }
+  nav ul li {
+    margin: 50px 0;
+    text-align: center;
+  }
+  nav ul li a {
+    font-size: 22px;
+    color: white;
+  }
+  /* Responsive Nav Button Code */
+}
