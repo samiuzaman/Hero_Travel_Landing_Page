@@ -122,3 +122,59 @@ ul li a {
   color: white;
 }
 /* Banner Section Code End */
+/* Destination Section Code Start */
+#Destination-section {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.destination-title-container {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 48px;
+}
+.destination-title-container h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.destination-title-container p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+  color: rgba(19, 19, 24, 0.7);
+}
+.destination-row-one,
+.destination-row-two,
+.destination-row-three {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+.destination-row-two{
+  grid-template-columns: 0.85fr 1.2fr 0.7fr;
+}
+.destination-row-three{
+  grid-template-columns: 0.75fr 1.25fr;
+}
+.card-country img {
+  width: 100%;
+  height: 300px;
+}
+.card-country {
+  position: relative;
+}
+.card-country p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 500;
+  transform: translate(-50%, -50%);
+}
+
+/* Destination Section Code End */
