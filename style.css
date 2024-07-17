@@ -154,10 +154,10 @@ ul li a {
   gap: 24px;
   margin-bottom: 24px;
 }
-.destination-row-two{
+.destination-row-two {
   grid-template-columns: 0.85fr 1.2fr 0.7fr;
 }
-.destination-row-three{
+.destination-row-three {
   grid-template-columns: 0.75fr 1.25fr;
 }
 .card-country img {
@@ -178,3 +178,44 @@ ul li a {
 }
 
 /* Destination Section Code End */
+/* Footer Section Code Start */
+
+footer {
+  padding: 80px 0;
+  text-align: center;
+  background-color: rgba(19, 19, 24, 0.05);
+}
+footer .footer-logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+nav .nav-logo h3 span {
+  color: #ff5400;
+}
+footer .footer-logo p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgb(90, 90, 93);
+}
+.social-media-icon {
+  width: 60%;
+  margin: 0 auto;
+  font-size: 1.8rem;
+  padding: 34px 0;
+  border-bottom: 1px solid rgb(90, 90, 93);
+}
+.social-media-icon i {
+  margin-right: 14px;
+}
+.copyright-text{
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgb(19, 19, 24);
+  padding-top: 44px;
+}
+/* Footer Section Code Start */
