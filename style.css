@@ -30,8 +30,8 @@ nav .nav-logo {
   align-items: center;
   gap: 24px;
 }
-nav .nav-logo h3 span{
-  color: #FF5400;
+nav .nav-logo h3 span {
+  color: #ff5400;
 }
 #click,
 .menu-btn {
@@ -54,9 +54,71 @@ ul li a:hover {
 ul li a {
   text-decoration: none;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 700;
   color: #424242;
   padding: 10px 15px;
   border-radius: 5px;
 }
 /* Nav Section Code End */
+/* Banner Section Code Start */
+
+#banner-container {
+  width: 80%;
+  height: 500px;
+  margin: 0 auto;
+  border-radius: 15px;
+  background-image: linear-gradient(rgba(19, 19, 24, 0.8), rgba(19, 19, 24, 0)),
+    url(images/banner-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 48px;
+}
+.banner-text-container {
+  width: 60%;
+  margin: 0 auto;
+}
+.banner-text-container h1 {
+  font-size: 4rem;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 24px;
+}
+.banner-text-container p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+  color: #fff;
+}
+.banner-input-container {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 12px;
+  border-radius: 10px;
+}
+.banner-input-container input,
+.banner-input-container select,
+.banner-input-container button {
+  width: 175px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+  padding: 15px;
+  font-size: 1rem;
+  color: rgba(19, 19, 24, 0.5);
+}
+.banner-input-container select option {
+  padding-right: 10px;
+}
+.banner-input-container button {
+  padding-right: 10px;
+  background-color: #FF5400;
+  color: white;
+}
+/* Banner Section Code End */
