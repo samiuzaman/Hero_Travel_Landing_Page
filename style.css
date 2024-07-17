@@ -120,6 +120,7 @@ ul li a {
   padding-right: 10px;
   background-color: #ff5400;
   color: white;
+  cursor: pointer;
 }
 /* Banner Section Code End */
 /* Destination Section Code Start */
@@ -212,7 +213,7 @@ footer .footer-logo p {
 .social-media-icon i {
   margin-right: 14px;
 }
-.copyright-text{
+.copyright-text {
   font-size: 1rem;
   font-weight: 300;
   color: rgb(19, 19, 24);
