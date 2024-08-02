@@ -120,9 +120,55 @@ ul li a {
   padding-right: 10px;
   background-color: #ff5400;
   color: white;
-  cursor: pointer;
 }
 /* Banner Section Code End */
+/* Popular Tour Section Code Start Here  */
+#popular-tour-section {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.popular-tour-text-container {
+  padding-right: 70px;
+  font-size: 1rem;
+}
+.popular-tour-text-container h2 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.popular-tour-text-container p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgba(19, 19, 24, 0.7);
+  margin-bottom: 24px;
+}
+.popular-tour-text-container button {
+  background-color: rgb(255, 84, 0);
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 12px 25px;
+  font-size: 1rem;
+  border-radius: 5px;
+  margin-top: 24px;
+}
+.popular-tour-text-container p:nth-last-child(1) {
+  margin-top: 20px;
+}
+.popular-tour-text-container ul {
+  margin-left: 30px;
+}
+.popular-tour-text-container ul li {
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgba(19, 19, 24, 0.7);
+  list-style-type: disc;
+  margin-bottom: 15px;
+}
+/* Popular Tour Section Code End Here  */
 /* Destination Section Code Start */
 #Destination-section {
   width: 80%;
@@ -179,6 +225,81 @@ ul li a {
 }
 
 /* Destination Section Code End */
+/* Why Choose Us Section Code Start Here */
+#why-choose-us-container {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.why-choose-us-title {
+  width: 55%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 55px;
+}
+.why-choose-us-title h2 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+.why-choose-us-title p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 25px;
+  color: rgba(19, 19, 24, 0.7);
+}
+.why-choose-card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.Handpicked-Hotels,
+.Best-Price-Guarantee {
+  width: 570px;
+  height: 283px;
+  background-color: rgba(251, 181, 99, 0.05);
+  border: 3px solid #feedda;
+  border-radius: 15px;
+  padding: 25px;
+}
+.World-Class-Service {
+  width: 570px;
+  height: 283px;
+  background-color: rgba(41, 206, 246, 0.05);
+  border: 3px solid #ecfbff;
+  border-radius: 15px;
+  padding: 25px;
+}
+.Best-Price-Guarantee {
+  margin-top: 24px;
+  margin-left: 26%;
+}
+.Handpicked-Hotels img,
+.World-Class-Service img,
+.Best-Price-Guarantee img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 24px;
+}
+.Handpicked-Hotels h3,
+.World-Class-Service h3,
+.Best-Price-Guarantee h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.Handpicked-Hotels p,
+.World-Class-Service p,
+.Best-Price-Guarantee p {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+}
+/* Why Choose Us Section Code End Here */
 /* Footer Section Code Start */
 
 footer {

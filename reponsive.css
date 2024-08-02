@@ -1,44 +1,3 @@
-/* Table View Responsive Design */
-@media only screen and (min-width: 576.1px) and (max-width: 940px) {
-  /* Responsive Nav Button Code */
-  nav {
-    display: block;
-    display: flex;
-    width: 92%;
-  }
-  .menu-btn {
-    display: block;
-  }
-  #click:checked ~ .menu-btn i::before {
-    content: "\f00d";
-  }
-  #click:checked ~ ul {
-    left: 0;
-  }
-  nav ul {
-    display: block;
-  }
-  nav ul {
-    position: fixed;
-    background-color: rgb(3, 69, 168);
-    top: 80px;
-    left: -100%;
-    width: 100%;
-    margin: 0 auto;
-    height: 100vh;
-    transition: all 0.5s ease;
-  }
-  nav ul li {
-    margin: 50px 0;
-    text-align: center;
-  }
-  nav ul li a {
-    font-size: 22px;
-    color: white;
-  }
-  /* Responsive Nav Button Code */
-}
-
 /* Responsive Mobile Device */
 @media only screen and (max-width: 576px) {
   /* Responsive Nav Button Code */
@@ -110,13 +69,48 @@
     font-size: 1rem;
   }
   /* Banner Section Code End */
+  /* Popular Tour Section Code Start Here  */
+  #popular-tour-section {
+    width: 90%;
+    flex-direction: column;
+  }
+  .popular-tour-text-container {
+    padding-right: 0px;
+    margin-bottom: 44px;
+  }
+  .popular-tour-text-container h2 {
+    font-size: 2.2rem;
+  }
+  /* Popular Tour Section Code End Here  */
+  /* Why Choose Us Section Code Start Here */
+  #why-choose-us-container {
+    width: 90%;
+  }
+  .why-choose-us-title {
+    width: 100%;
+  }
+  .why-choose-us-title h2 {
+    font-size: 2.2rem;
+  }
+  .why-choose-card-container {
+    grid-template-columns: 1fr;
+  }
+  .Handpicked-Hotels,
+  .Best-Price-Guarantee,
+  .World-Class-Service {
+    width: 100%;
+    height: 330px;
+  }
+  .Best-Price-Guarantee {
+    margin-left: 0;
+  }
+  /* Why Choose Us Section Code End Here */
   /* Destination Section Code Start */
   #Destination-section {
     width: 90%;
   }
   .destination-title-container {
     width: 100%;
-    
   }
   .destination-title-container h2 {
     font-size: 2.5rem;
